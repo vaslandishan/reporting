@@ -51,7 +51,7 @@ class AboutUs extends React.Component {
                 <div className={'description'}>
                     <br/>
                     {/*<span>support@behsazan.com</span>*/}
-                    <span>suport@sepidvas.com</span>
+                    <span>support@sepidvas.com</span>
 
                 </div>
             </React.Fragment>
