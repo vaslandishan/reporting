@@ -1,3 +1,5 @@
+
+
 import './themes/generated/theme.base.css';
 import './themes/generated/theme.additional.css';
 import 'devextreme/dist/css/dx.common.css';
@@ -5,13 +7,11 @@ import React, { Component } from 'react';
 import { HashRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
 import appInfo from './app-info';
 import { navigation } from './app-navigation';
-import singleCard from './layouts/single-card/single-card';
+import routes from './app-routes';
 import './App.scss';
 import './dx-styles.scss';
-import routes from './app-routes';
+import { Footer, LoginForm } from './components';
 
-import { Footer, LoginForm,MainForm } from './components';
-import {onLineUsers, maxDate} from './pages/dashboard/data';
 import Background1 from './assets/img/bg_main.jpg';
 import {
 SideNavOuterToolbar as SideNavBarLayout,

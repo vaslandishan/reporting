@@ -16,14 +16,14 @@ export const navigation = [
                 items: [
                     {
                         text: '100 - گزارش تماس بر اساس تاریخ',
-                        path: '/r1',
-                        icon: 'plus'
+                        path: '/form-213',
+
 
                     },
                     {
                         text: '200 - گزارش تماس بر اساس شماره تماس',
-                        path: '/r2',
-                        icon: 'plus'
+                        path: '/form-313',
+
 
 
                     }
@@ -36,13 +36,11 @@ export const navigation = [
                 items: [
                     {
                         text: 'گزارش بر اساس تاریخ',
-                        path: '/a1',
-                        icon: 'plus'
+                        path: '/a1'
                     },
                     {
                         text: 'گزارش بر اساس شماره تلفن',
-                        path: '/a2',
-                        icon: 'plus'
+                        path: '/a2'
                     },]
             }
         ]

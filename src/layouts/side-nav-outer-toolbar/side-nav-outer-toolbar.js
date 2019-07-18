@@ -219,31 +219,26 @@ class SideNavOuterToolbar extends React.Component {
   }
 
   navigationChanged = event => {
-    const path = event.itemData.path;
-    const pointerEvent = event.event;
-    const url = event.itemData.path +"^"+event.itemData.text;
-    // const formName = event.itemData.text;
-    if (path && this.state.menuOpened) {
-      if (event.node.selected) {
-        pointerEvent.preventDefault();
+      const path = event.itemData.path;
+      const pointerEvent = event.event;
+
+      if (path && this.state.menuOpened) {
+          if (event.node.selected) {
+              pointerEvent.preventDefault();
+          } else {
+              this.props.history.push(path);
+          }
+
+          if (this.hideMenuAfterNavigation) {
+              this.setState({
+                  menuOpened: false,
+                  temporaryMenuOpened: false
+              });
+              pointerEvent.stopPropagation();
+          }
       } else {
-        // this.props.history.push(path);
-          this.props.history.push({ pathname: "/main-form", search:url});
-
-
-
+          pointerEvent.preventDefault();
       }
-
-      if (this.hideMenuAfterNavigation) {
-        this.setState({
-          menuOpened: false,
-          temporaryMenuOpened: false
-        });
-        pointerEvent.stopPropagation();
-      }
-    } else {
-      pointerEvent.preventDefault();
-    }
   };
 
   navigationClick = () => {
