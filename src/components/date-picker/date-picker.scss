@@ -1,0 +1,28 @@
+@import "../../themes/generated/variables.base.scss";
+
+.date-Picker {
+  //display: block;
+  //color: rgba($base-text-color, alpha($base-text-color) * 0.7);
+  //border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+  margin: 0;
+
+  //top: 0;
+  font-size: 11px;
+
+  //vertical-align: middle;
+  //color: #e0e0e0;
+  //margin-right: 16px;
+  //float: right;
+  //direction: rtl;
+  //background-color: #515159;
+}
+.date-Picker-text-box {
+
+  font-size: 11px;
+  .dx-placeholder {
+    font-size: 10px;
+
+  }
+}
+

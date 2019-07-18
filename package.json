@@ -1,0 +1,54 @@
+{
+  "name": "vas-",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "latest",
+    "classnames": "^2.2.6",
+    "devextreme": "19.1-stable",
+    "devextreme-aspnet-data-nojquery": "^2.3.0",
+    "devextreme-react": "19.1-stable",
+    "floating-label-react": "^1.0.0",
+    "jalaali-js": "latest",
+    "jalali-react-datepicker": "0.0.1-alpha-01",
+    "moment": "^2.24.0",
+    "moment-jalaali": "^0.8.3",
+    "node-sass": "^4.11.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-app-polyfill": "^1.0.0",
+    "react-dom": "^16.8.6",
+    "react-persian-calendar": "^1.0.3",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.1",
+    "react-tabs": "^3.0.0",
+    "react-window-dimensions": "^1.0.2",
+    "shallow-equal": "latest"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build-themes": "devextreme build",
+    "postinstall": "npm run build-themes"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "devextreme-cli": "1.1.4"
+  }
+}

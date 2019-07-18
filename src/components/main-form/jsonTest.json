@@ -1,0 +1,14 @@
+[
+  {
+    "ID": 1,
+    "Name": "مشخصات کاربر",
+    "tabIndex": 0,
+    "url": "/profile"
+  },
+  {
+    "ID": 2,
+    "Name": "نمایش اطلاعات",
+    "tabIndex": 1,
+    "url": "/displaydata"
+  }
+]

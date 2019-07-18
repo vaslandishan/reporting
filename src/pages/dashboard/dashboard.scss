@@ -1,0 +1,62 @@
+//-------------------------------------------
+.image-container {
+  overflow: auto;
+  border-radius: 10%;
+  height: 12vh;
+  width: 12vh;
+  margin: 10px 10px 0px 0px;
+  background: url("../../assets/img/shahria_a.png") no-repeat #fff;
+  background-size: 100%;
+  position: relative;
+  padding-right: 20px;
+}
+.ul{
+  list-style:none;
+  padding: 0;
+}
+.li{
+  word-wrap: break-word;
+}
+.profileCss {
+  margin: 12px 10px 12px 0px;
+  //margin: 0;
+}
+.profile-grid-css{
+  display: flex;
+  flex-direction:row;
+
+}
+.dashboard{
+  max-height: 95%;
+}
+//.profileDivCss{
+//  width: 25%;
+// }
+//.gridDivCss{
+//  width: 75%;
+//}
+////-------------------------------------------
+////
+.chartDivCss{
+  display: flex;
+  flex-direction:row;
+  margin: 5px 5px 5px 5px;
+ position: relative;
+}
+//.chartCss{
+//  width: 33.3%;
+//}
+//.pieChartCss{
+//  width: 95%;
+//  height:30% !important;
+//  margin: 5px 5px 5px 5px;
+//}
+//.myDiv{
+// // height: 100% !important;
+//}
+//
+//.lineChart{
+//  width: 95%;
+//  height:30% !important;
+//  margin: 0px 0px 10px 5px;
+//}

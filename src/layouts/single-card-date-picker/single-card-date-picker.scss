@@ -1,0 +1,59 @@
+.single-card {
+  padding: 2px;
+  margin: 8px;
+  display: flex;
+}
+
+.single-card.dx-card {
+  //width: 100%;
+  //height: 100%;
+  //margin: auto auto;
+  .screen-x-small & {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0;
+    border: 0;
+  }  
+  
+  .content {
+    padding: 0;
+    //background-color: white;
+   /* width: 200px;
+    height: auto;*/
+  }
+
+
+}
+
+.frm-login-center{
+  margin: auto auto;
+  padding: 50px;
+}
+
+.dx-fieldset, .dx-field {
+  padding: 1px;
+  margin: 1px;
+}
+.dx-field-label{
+  text-align: left;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.dx-field-value{
+  font-size: 12px;
+}
+.dx-field-login{
+  padding: 10px;
+  margin: 10px;
+}
+.dx-grid-dashboard{
+  width: 1200px;
+  height: 350px;
+  padding: 10px;
+  margin: 10px;
+
+
+}
