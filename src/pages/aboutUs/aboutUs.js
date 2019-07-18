@@ -13,14 +13,16 @@ class AboutUs extends React.Component {
         return (
             <React.Fragment>
 
+
                 <div className={'user-image-container'}>
                     <div className={'logo-image'}/>
                 </div>
 
+
                 <div className={'description'}>
                     <br/>
                     <br/>
-                    <span>پیشرو در ارائه خدمات نوین بانکی</span>
+                    <span>پیشرو در ارائه خدمات نوین ارتباطی</span>
 
                 </div>
                 <div className={'description'}>
@@ -32,7 +34,11 @@ class AboutUs extends React.Component {
                 </div>
                 <div className={'description'}>
                     <br/>
-                    <span>داخلی 9350</span>
+                    <span>09125182469</span>
+                    <br/>
+                    <span>09379707473</span>
+                    <br/>
+                    <span>09124727720</span>
 
                 </div>
                 <div className={'description'}>
@@ -45,7 +51,7 @@ class AboutUs extends React.Component {
                 <div className={'description'}>
                     <br/>
                     {/*<span>support@behsazan.com</span>*/}
-                    <span>akbarieh@behsazan.net</span>
+                    <span>suport@sepidvas.com</span>
 
                 </div>
             </React.Fragment>

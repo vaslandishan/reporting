@@ -1,4 +1,4 @@
-import { HomePage, DisplayDataPage, ProfilePage ,Display,Form213} from './pages';
+import { HomePage,Dashboard, DisplayDataPage, ProfilePage ,Display,Form213} from './pages';
 
 export default [
   {
@@ -10,8 +10,8 @@ export default [
     component: ProfilePage
   },
   {
-    path: '/home',
-    component: HomePage
+    path: '/dashboard',
+    component: Dashboard
   },
   {
     path: '/display',

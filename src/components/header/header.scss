@@ -22,15 +22,22 @@
 
 }
 .header{
-  background-color: #5E5E5E;
+  background-color:#062329;
+ /* background: url("../../assets/img/menu_back.jpg") no-repeat;
+  width: 100%;;
+  height: 100%;
+  webkitBackgroundSize: cover;
+  backgroundRepeat: no-repeat;
+  backgroundPosition: top center;
+  backgroundImage: url("../../assets/img/menu_back.jpg") no-repeat;*/
 }
 .header-toolbar {
-  background: url("../../assets/img/BankMellat.png") no-repeat;
+  background: url("../../assets/img/vas-logo.png") no-repeat;
   height: 41px;
   width: 200px;
   .dx-icon {
     vertical-align: middle;
-    color: rgba(0, 0, 0, 0.87);
+    color: #ffe6d5;
     margin-right: 16px;
   }
 }
@@ -103,7 +110,7 @@
       .user-image {
         width: 100%;
         height: 100%;
-        background: url("../../assets/img/shahria_a.png") no-repeat #fff;
+        background: url("../../assets/img/2031.jpg") no-repeat #fff;
         background-size: cover;
       }
     }

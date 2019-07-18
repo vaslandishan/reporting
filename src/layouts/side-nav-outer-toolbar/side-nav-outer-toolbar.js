@@ -123,7 +123,7 @@ class SideNavOuterToolbar extends React.Component {
         </Drawer>
         <Footer>
 
-          <div style={{float:'right'}}>
+         {/* <div style={{float:'right'}}>
               <span>    تعداد کاربران آنلاین</span>
               <span> : </span>
               <span> {onLineUsers}</span>
@@ -131,12 +131,12 @@ class SideNavOuterToolbar extends React.Component {
               <span>  تاریخ ماکزیمم روز برای گزارشات خلاصه دفتر</span>
               <span> : </span>
               <span> {maxDate}</span>
-          </div>
+          </div>*/}
           <div style={{float:'left'}} >
               <a  className={'behsazan-link' }
                   // key={index}
                   onClick={this.handleClick}
-              >کلیه حقوق این نرم افزار متعلق به شرکت بهسازان ملت می باشد</a>
+              >کلیه حقوق این نرم افزار متعلق به شرکت وصل اندیشان می باشد</a>
           </div>
 
 

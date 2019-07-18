@@ -8,6 +8,8 @@ import { navigation } from './app-navigation';
 import singleCard from './layouts/single-card/single-card';
 import './App.scss';
 import './dx-styles.scss';
+import routes from './app-routes';
+
 import { Footer, LoginForm,MainForm } from './components';
 import {onLineUsers, maxDate} from './pages/dashboard/data';
 import Background1 from './assets/img/bg_main.jpg';
@@ -53,14 +55,17 @@ const AuthPage = (props) => (
     <section style={sectionStyle1}>
   <SideNavBarLayout menuItems={navigation} title={appInfo.title} {...props} >
 
-      {/*<SingleCard >*/}
-
-          <Switch>
-              <Route path="/" component={MainForm} />
-          </Switch>
-
-      {/*</SingleCard>*/}
-
+      <Switch>
+          {routes.map(item => (
+              <Route
+                  exact
+                  key={item.path}
+                  path={item.path}
+                  component={item.component}
+              />
+          ))}
+          <Redirect to={'/dashboard'} />
+      </Switch>
 
 
   </SideNavBarLayout>

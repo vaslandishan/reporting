@@ -17,7 +17,7 @@ export default class UserPanel extends React.Component {
       <div className={'user-panel'}>
 
         <div className={'user-info'}>
-            <div style={user} >شهریار اکبریه</div>
+            <div style={user} >سامانه 2031</div>
 
           <div className={'image-container'}>
             <div className={'user-image'} />

@@ -50,6 +50,7 @@ class Dashboard extends React.Component {
         return (
             <React.Fragment>
                 <div className={'dashboard'}>
+                   {/*
                     <div className={'profile-grid-css'}>
                         <SingleCard width={'20%'} height={'100%'}>
                             <div className={'image-container'}/>
@@ -102,6 +103,42 @@ class Dashboard extends React.Component {
                         </SingleCard>
 
                     </div>
+                   */}
+                    <div className={'profile-grid-css'}>
+
+
+                        <SingleCard width={'80%'} height={'100%'}>
+                            <DataGrid
+                                dataSource={cartablData}
+                                rtlEnabled={true}
+                                allowColumnReordering={false}
+                                allowColumnResizing={true}
+                                showBorders={true}>
+                                <GroupPanel emptyPanelText={'گروه بندی بر اساس...'} visible={true}/>
+                                <Grouping autoExpandAll={false}/>
+                                <Pager showPageSizeSelector={true} showInfo={true}/>
+
+                                <Scrolling/>
+                                <Column dataField={'ROW'} hidingPriority={0} dataType={'string'}
+                                        caption={'ردیف'}/>
+                                <Column dataField={'TASKNO'} dataType={'string'} caption={'شماره تماس'} width={100}/>
+                                <Column dataField={'PATTERNNAME'} dataType={'string'} caption={'نوع سرویس'}
+                                        width={350}/>
+                                <Column dataField={'FRAUD'} hidingPriority={1} dataType={'string'}
+                                        caption={'وضعیت تماس'}/>
+
+                                <Column dataField={'ERROR'} hidingPriority={3} dataType={'string'}
+                                        caption={'خطا'}/>
+                                <Column dataField={'UNDEF'} hidingPriority={4} dataType={'string'}
+                                        caption={'نامشخص'}/>
+                                <Column dataField={'STATUS'} dataType={'string'} caption={'وضعيت'} width={150}/>
+                                <Column dataField={'RECIEVETIME'} hidingPriority={5} dataType={'string'}
+                                        caption={'زمان دريافت'}/>
+                                <Paging defaultPageSize={3}/>
+                            </DataGrid>
+                        </SingleCard>
+
+                    </div>
                     <div>
                         <div className={'chartDivCss'}>
 
@@ -131,7 +168,7 @@ class Dashboard extends React.Component {
                                 <Chart
                                     title={{
                                         font: {family: "Bnazanin", size: "12px"},
-                                        text: 'گزارشات موردي کشف تقلب',
+                                        text: 'گزارشات تماس ها',
                                         margin: 'right'
                                     }}
 
