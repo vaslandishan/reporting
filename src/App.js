@@ -62,23 +62,7 @@ const AuthPage = (props) => (
       {/*</SingleCard>*/}
 
 
-    {/*<Footer>
-        <div className={'app-footer'}>
-            <span>تعداد کاربران آنلاین</span>
-            <span> : </span>
-            <span> {onLineUsers}</span>
-        </div>
-        <div className={'app-footer'}>
-            <span>||</span>
-        </div>
 
-        <div className={'app-footer'}>
-            <span>  تاریخ ماکزیمم روز برای گزارشات خلاصه دفتر</span>
-            <span> : </span>
-            <span> {maxDate}</span>
-        </div>
-
-    </Footer>*/}
   </SideNavBarLayout>
     </section>
 );
